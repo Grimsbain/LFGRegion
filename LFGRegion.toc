@@ -1,0 +1,7 @@
+## Interface: 70300
+## Title: LFGRegion
+## Notes: Shows the server region in the lfg tooltip.
+## Author: Grimsbain
+## Version: 1.0
+
+core.lua
