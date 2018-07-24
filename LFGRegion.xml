@@ -1,0 +1,9 @@
+<Ui>
+    <Script file="LFGRegion.lua" />
+
+    <Frame name="LFGRegion">
+        <Scripts>
+            <OnLoad function="LFGRegion_OnLoad" />
+        </Scripts>
+    </Frame>
+</Ui>

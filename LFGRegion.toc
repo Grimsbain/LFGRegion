@@ -1,7 +1,7 @@
-## Interface: 70300
-## Title: LFGRegion
-## Notes: Shows the server region in the lfg tooltip.
+## Interface: 80000
+## Title: LFG Region
+## Notes: Shows the sever location in the LFG tooltip.
 ## Author: Grimsbain
-## Version: 1.0
+## Version: 1.1
 
-core.lua
+LFGRegion.xml
