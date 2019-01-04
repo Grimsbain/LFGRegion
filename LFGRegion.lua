@@ -50,9 +50,9 @@ local function AddRegion(tooltip, name)
 end
 
 local function SetSearchEntryTooltip(tooltip, resultID, autoAcceptOption)
-    local _, _, _, _, _, _, _, _, _, _, _, _, leaderName = C_LFGList.GetSearchResultInfo(resultID)
-    if ( leaderName ) then
-        AddRegion(tooltip, leaderName)
+    local info = C_LFGList.GetSearchResultInfo(resultID)
+    if ( info.leaderName ) then
+        AddRegion(tooltip, info.leaderName)
     end
 end
 hooksecurefunc("LFGListUtil_SetSearchEntryTooltip", SetSearchEntryTooltip)

@@ -1,7 +1,7 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: LFG Region
 ## Notes: Shows the sever location in the LFG tooltip.
 ## Author: Grimsbain
-## Version: 1.1
+## Version: 1.2
 
 LFGRegion.xml
